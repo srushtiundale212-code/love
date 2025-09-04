@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:black;
+            font-family: 'Arial', sans-serif;
+            background: url('love.jpg');
+        }
+
+        .poster {
+            text-align: center;
+            padding: 40px;
+            background-color: rgb(33, 2, 17);
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(234, 104, 104, 0.1);
+            
+        }
+
+        .love-text {
+            font-size: 40px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #e881c9, #f7b7e3, #cfa3b7, #fd92fa, #815c6c);
+            background-clip: text;
+            color: transparent;
+            text-shadow:rgba(225, 206, 206, 0.646);
+            animation: gradientAnimation 4s ease-in-out infinite;
+        }
+
+        .heart {
+            font-size: 60px;
+            color: rgb(234, 8, 8);
+            animation: heartBeat 1.5s infinite;
+        }
+        .text 
+        {
+            font-size: 10px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #e881c9, #f7b7e3, #cfa3b7, #fd92fa, #815c6c);
+            background-clip: text;
+            color: transparent;
+            text-shadow:rgba(225, 206, 206, 0.646);
+            animation: gradientAnimation 4s ease-in-out infinite;
+
+
+        }
+        
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            40% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes heartBeat {
+            0% {
+                transform: scale(1);
+            }
+            25% {
+                transform: scale(1.2);
+            }
+            50% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="love-text"> I Love You MAZ BAL</div>
+        <div class="text">tu maz sagl ahes tuzya shivay mi ky ch nai tu ahes tr mi ahe u r my <br>home happiness sweet gulabjamun kajukalti<br> everything
+            kalal na tu pahije mala mazya life made tuyza barobar<br> sagl karaych ahe jagaych ahe khup dreams ahet maze tuzya
+             barobar Pratikkk <br>tu mala laii aavadtos ree laii tuze lips bhari ahet<br> khau sark vataty  jas चहा made sakar nasli 
+             <br>चहा kas lagaty na ghan ts ahe mazi life tuzya shivay <br>tuzya shivay mi incomplete ahe</div>
+        
+        </h5>
+        <div class="heart">❤️</div>
+    </div>
+</body>
+</html>
